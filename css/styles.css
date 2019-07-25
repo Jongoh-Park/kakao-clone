@@ -18,5 +18,6 @@ body{
 
 a {
     color: inherit; /* 부모로부터 컬러를 받아온다. */
+    text-decoration: none; /* a태그의 링크를 표시하는 밑줄을 제거. */
 }
 

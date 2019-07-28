@@ -26,3 +26,17 @@ a {
     text-decoration: none; /* a태그의 링크를 표시하는 밑줄을 제거. */
 }
 
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+main {
+    animation: fadeIn 0.5s ease-in-out;
+}
